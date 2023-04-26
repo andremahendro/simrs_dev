@@ -1,0 +1,304 @@
+CRITICAL - 2023-04-24 00:44:42 --> Attempt to read property "load" on null
+in APPPATH\Libraries\Template.php on line 18.
+ 1 APPPATH\Libraries\Template.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "load" on null', 'APPPATH\\Libraries\\Template.php', 18)
+ 2 APPPATH\Controllers\Home.php(20): App\Libraries\Template->views('dashboard-test', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->root('dashboard-test')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-24 00:45:44 --> Attempt to read property "load" on null
+in APPPATH\Libraries\Template.php on line 18.
+ 1 APPPATH\Libraries\Template.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "load" on null', 'APPPATH\\Libraries\\Template.php', 18)
+ 2 APPPATH\Controllers\Home.php(20): App\Libraries\Template->views('dashboard-test', null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->root('dashboard-test')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-24 00:48:14 --> Attempt to read property "load" on null
+in APPPATH\Libraries\Template.php on line 18.
+ 1 APPPATH\Libraries\Template.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "load" on null', 'APPPATH\\Libraries\\Template.php', 18)
+ 2 APPPATH\Controllers\Home.php(20): App\Libraries\Template->views('dashboard-test', null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->root('dashboard-test')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-24 00:51:37 --> Attempt to read property "load" on null
+in APPPATH\Libraries\Template.php on line 18.
+ 1 APPPATH\Libraries\Template.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "load" on null', 'APPPATH\\Libraries\\Template.php', 18)
+ 2 APPPATH\Controllers\Home.php(20): App\Libraries\Template->views('dashboard-test', null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->root('dashboard-test')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-24 05:40:49 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in C:\laragon\www\simrs_dev\app\Libraries\Template.php on line 14 and at least 1 expected
+in SYSTEMPATH\View\View.php on line 140.
+ 1 APPPATH\Libraries\Template.php(14): CodeIgniter\View\View->__construct()
+ 2 APPPATH\Controllers\Home.php(16): App\Libraries\Template->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->root('dashboard-test')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-24 05:43:05 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in C:\laragon\www\simrs_dev\app\Libraries\Template.php on line 14 and at least 1 expected
+in SYSTEMPATH\View\View.php on line 140.
+ 1 APPPATH\Libraries\Template.php(14): CodeIgniter\View\View->__construct()
+ 2 APPPATH\Controllers\Home.php(16): App\Libraries\Template->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->root('dashboard-test')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-24 05:44:01 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in C:\laragon\www\simrs_dev\app\Libraries\Template.php on line 14 and at least 1 expected
+in SYSTEMPATH\View\View.php on line 140.
+ 1 APPPATH\Libraries\Template.php(14): CodeIgniter\View\View->__construct()
+ 2 APPPATH\Controllers\Home.php(16): App\Libraries\Template->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->root('dashboard-test')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-24 05:49:51 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in C:\laragon\www\simrs_dev\app\Libraries\Template.php on line 14 and at least 1 expected
+in SYSTEMPATH\View\View.php on line 140.
+ 1 APPPATH\Libraries\Template.php(14): CodeIgniter\View\View->__construct()
+ 2 APPPATH\Controllers\Home.php(16): App\Libraries\Template->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->root('dashboard-test')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-04-24 05:52:47 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\laragon\www\simrs_dev\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\laragon\www\simrs_dev\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\simrs_dev\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\simrs_dev\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\laragon\www\simrs_dev\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#5 C:\laragon\www\simrs_dev\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#8 C:\laragon\www\simrs_dev\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#9 C:\laragon\www\simrs_dev\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#10 C:\laragon\www\simrs_dev\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\simrs_dev\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\simrs_dev\spark(98): CodeIgniter\CLI\Console->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\laragon\www\simrs_dev\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\simrs_dev\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\simrs_dev\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\laragon\www\simrs_dev\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#4 C:\laragon\www\simrs_dev\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 C:\laragon\www\simrs_dev\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#8 C:\laragon\www\simrs_dev\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 C:\laragon\www\simrs_dev\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\simrs_dev\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\simrs_dev\spark(98): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2023-04-24 05:53:23 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\laragon\www\simrs_dev\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\laragon\www\simrs_dev\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(1360): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(1394): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\laragon\www\simrs_dev\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\laragon\www\simrs_dev\system\Database\MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\laragon\www\simrs_dev\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\simrs_dev\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\laragon\www\simrs_dev\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\laragon\www\simrs_dev\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\laragon\www\simrs_dev\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\laragon\www\simrs_dev\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\laragon\www\simrs_dev\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\laragon\www\simrs_dev\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(1360): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(1394): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\laragon\www\simrs_dev\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\laragon\www\simrs_dev\system\Database\MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\laragon\www\simrs_dev\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\laragon\www\simrs_dev\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 C:\laragon\www\simrs_dev\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 C:\laragon\www\simrs_dev\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 C:\laragon\www\simrs_dev\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\simrs_dev\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 C:\laragon\www\simrs_dev\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2023-04-24 05:57:20 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\laragon\www\simrs_dev\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\laragon\www\simrs_dev\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\simrs_dev\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\simrs_dev\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\laragon\www\simrs_dev\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#5 C:\laragon\www\simrs_dev\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#8 C:\laragon\www\simrs_dev\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#9 C:\laragon\www\simrs_dev\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#10 C:\laragon\www\simrs_dev\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\simrs_dev\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\simrs_dev\spark(98): CodeIgniter\CLI\Console->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\laragon\www\simrs_dev\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\simrs_dev\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\simrs_dev\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\laragon\www\simrs_dev\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#4 C:\laragon\www\simrs_dev\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 C:\laragon\www\simrs_dev\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#8 C:\laragon\www\simrs_dev\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 C:\laragon\www\simrs_dev\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\simrs_dev\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\simrs_dev\spark(98): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2023-04-24 05:57:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\laragon\www\simrs_dev\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\laragon\www\simrs_dev\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(1360): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(1394): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\laragon\www\simrs_dev\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\laragon\www\simrs_dev\system\Database\MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\laragon\www\simrs_dev\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\simrs_dev\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\laragon\www\simrs_dev\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\laragon\www\simrs_dev\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\laragon\www\simrs_dev\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\laragon\www\simrs_dev\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\laragon\www\simrs_dev\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\laragon\www\simrs_dev\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(1360): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(1394): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\laragon\www\simrs_dev\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\laragon\www\simrs_dev\system\Database\MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\laragon\www\simrs_dev\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\laragon\www\simrs_dev\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 C:\laragon\www\simrs_dev\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 C:\laragon\www\simrs_dev\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 C:\laragon\www\simrs_dev\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\simrs_dev\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 C:\laragon\www\simrs_dev\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2023-04-24 05:58:34 --> mysqli_sql_exception: Can't create database 'simrs_wahidin'; database exists in C:\laragon\www\simrs_dev\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simrs_dev\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE DATABASE...', 0)
+#1 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE DATABASE...')
+#2 C:\laragon\www\simrs_dev\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE DATABASE...')
+#3 C:\laragon\www\simrs_dev\system\Database\Forge.php(223): CodeIgniter\Database\BaseConnection->query('CREATE DATABASE...')
+#4 C:\laragon\www\simrs_dev\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Forge->createDatabase('simrs_wahidin')
+#5 C:\laragon\www\simrs_dev\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 C:\laragon\www\simrs_dev\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#8 C:\laragon\www\simrs_dev\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#9 C:\laragon\www\simrs_dev\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#10 C:\laragon\www\simrs_dev\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\simrs_dev\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\simrs_dev\spark(98): CodeIgniter\CLI\Console->run()
+#13 {main}
+CRITICAL - 2023-04-24 06:06:17 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in C:\laragon\www\simrs_dev\app\Libraries\Template.php on line 14 and at least 1 expected
+in SYSTEMPATH\View\View.php on line 140.
+ 1 APPPATH\Libraries\Template.php(14): CodeIgniter\View\View->__construct()
+ 2 APPPATH\Controllers\Home.php(16): App\Libraries\Template->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->root('dashboard-projects')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-24 06:06:23 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in C:\laragon\www\simrs_dev\app\Libraries\Template.php on line 14 and at least 1 expected
+in SYSTEMPATH\View\View.php on line 140.
+ 1 APPPATH\Libraries\Template.php(14): CodeIgniter\View\View->__construct()
+ 2 APPPATH\Controllers\Home.php(16): App\Libraries\Template->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->root('dashboard-crm')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-24 06:06:31 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in C:\laragon\www\simrs_dev\app\Libraries\Template.php on line 14 and at least 1 expected
+in SYSTEMPATH\View\View.php on line 140.
+ 1 APPPATH\Libraries\Template.php(14): CodeIgniter\View\View->__construct()
+ 2 APPPATH\Controllers\Home.php(16): App\Libraries\Template->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->root('dashboard-test')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-24 06:06:41 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in C:\laragon\www\simrs_dev\app\Libraries\Template.php on line 14 and at least 1 expected
+in SYSTEMPATH\View\View.php on line 140.
+ 1 APPPATH\Libraries\Template.php(14): CodeIgniter\View\View->__construct()
+ 2 APPPATH\Controllers\Home.php(16): App\Libraries\Template->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->root('dashboard-test')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-24 06:07:57 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in C:\laragon\www\simrs_dev\app\Libraries\Template.php on line 14 and at least 1 expected
+in SYSTEMPATH\View\View.php on line 140.
+ 1 APPPATH\Libraries\Template.php(14): CodeIgniter\View\View->__construct()
+ 2 APPPATH\Controllers\Home.php(16): App\Libraries\Template->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->root('dashboard-job')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-24 06:08:08 --> Too few arguments to function CodeIgniter\View\View::__construct(), 0 passed in C:\laragon\www\simrs_dev\app\Libraries\Template.php on line 14 and at least 1 expected
+in SYSTEMPATH\View\View.php on line 140.
+ 1 APPPATH\Libraries\Template.php(14): CodeIgniter\View\View->__construct()
+ 2 APPPATH\Controllers\Home.php(16): App\Libraries\Template->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->root('pages-pricing')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-24 07:39:54 --> Path cannot be empty
+in APPPATH\Views\_base_view.php on line 27.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('_base_view', [], true)
+ 4 APPPATH\Controllers\Home.php(19): view('_base_view')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->root('_base_view')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-24 07:50:42 --> Path cannot be empty
+in APPPATH\Views\_base_view.php on line 27.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('_base_view', [], true)
+ 4 APPPATH\Controllers\ContentTest.php(15): view('_base_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ContentTest->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContentTest))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

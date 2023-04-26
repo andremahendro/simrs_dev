@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+// use App\Libraries\Template;
+
 class Home extends BaseController
 {
     public function index()
@@ -11,9 +13,11 @@ class Home extends BaseController
 
     public function root($path = '')
     {
+        // $template = new Template();
         if ($path !== '') {
-            if(@file_exists(APPPATH.'Views/'.$path.'.php')) {
+            if (@file_exists(APPPATH . 'Views/' . $path . '.php')) {
                 return view($path);
+                // return $template->views($path, null);
             } else {
                 throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
             }

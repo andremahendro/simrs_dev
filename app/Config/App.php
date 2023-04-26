@@ -24,7 +24,8 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost:8080/';
+    // public $baseURL = 'http://localhost:8080/';
+    public $baseURL = BASE;
 
     /**
      * --------------------------------------------------------------------------
@@ -163,7 +164,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $sessionCookieName = 'ci_session';
+    public $sessionCookieName = 'simrs_session';
 
     /**
      * --------------------------------------------------------------------------

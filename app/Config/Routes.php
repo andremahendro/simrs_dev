@@ -39,9 +39,10 @@ $routes->get('/login', 'Auth::index', ['filter' => 'noauth']);
 $routes->post('/loginCheck', 'Auth::loginCheck');
 
 // Filter on route group
-$routes->group('', ['filter'=>'auth'], function ($routes){
+$routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->get('/logout', 'Auth::logout');
     $routes->get('/', 'Home::index');
+    $routes->get('/dashboard-test', 'ContentTest::index');
     $routes->get('/(:any)', 'Home::root/$1');
 });
 
